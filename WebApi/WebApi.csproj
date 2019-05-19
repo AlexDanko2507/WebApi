@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190516090135_Initial.cs" />
+    <Compile Remove="Migrations\20190516090135_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190516090330_Initial.cs" />
+    <Compile Remove="Migrations\20190516090330_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190516200128_Initial.cs" />
+    <Compile Remove="Migrations\20190516200128_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190517085902_Initial.cs" />
+    <Compile Remove="Migrations\20190517085902_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190518063806_Initial.cs" />
+    <Compile Remove="Migrations\20190518063806_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190518063908_Initial.cs" />
+    <Compile Remove="Migrations\20190518063908_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190518112321_Initial.cs" />
+    <Compile Remove="Migrations\20190518112321_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190518112628_Initial.cs" />
+    <Compile Remove="Migrations\20190518112628_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190518133822_Initial.cs" />
+    <Compile Remove="Migrations\20190518133822_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190519082716_Initial.cs" />
+    <Compile Remove="Migrations\20190519082716_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
